@@ -9,6 +9,7 @@
 import Foundation
 import CoreData
 
+#warning("Change this value to your own firebase database!")
 let baseURL = URL(string: "https://journal-syncing.firebaseio.com/")!
 
 class EntryController {
