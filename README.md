@@ -11,4 +11,5 @@ Please fork and clone this repository. It contains the broken project that you s
 As a recap, the project when working properly should:
 
 - Allow the user to create journal entries that are saved to a Firebase Database and an on-device persistent store using Core Data
+  - You will want to create your own Firebase database (or just use a new endpoint on the same one you've created in the past)
 - The device's persistent store is synchronized with the Firebase Database. (When a journal entry is saved to the device's persistent store it gets sent to Firebase, and vice-versa.
